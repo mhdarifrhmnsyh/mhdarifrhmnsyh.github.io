@@ -1,0 +1,100 @@
+<html>
+<title>Muhammad Arif Rahmansyh</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="style1.css">
+<body>
+<div class=" w3-animate-bottom">
+    <img src="desain.gif" width="100%" height="50%"> </div> 
+</div>
+<div class="w3-bar w3-yellow w3-card">
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">Brand<i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block">
+          <button class="w3-bar-item w3-button" onclick="openKota('LENOVO')">LENOVO</button>
+            <div class="w3-bar w3-orange w3-card" >
+                
+
+            </div>
+          <button class="w3-bar-item w3-button" onclick="openKota('ASUS')">ASUS</button>
+          <button class="w3-bar-item w3-button" onclick="openKota('MSI')">MSI</button>
+        </div>
+      </div>   
+ 
+ <button class="w3-bar-item w3-button" onclick="openKota('Aksesoris')">Aksesoris</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Smartphone')">Smartphone</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('Contact')">Owner</button>
+</div>
+<div id="MSI" class="w3-container kota w3-animate-fading" style="display:none">
+    <img src="laptop.png" height="50%>"
+    <a href="#Laptop"></a>
+
+ <h2><b>Laptop Gaming MSI Katana </b></h2>
+ <p>Mempunyai Spesifikasi :</p>
+ <p>Intel Core i9 Gen 11</p>
+ <p>Ram 8gb Up to 32 Gb</p>
+ <p>Nvidia GTX 1080</p>
+</div>
+</div>
+<div id="LENOVO" class="w3-container kota w3-animate-fading" style="display:none">
+    <img src="laptoplenovo.png" height="50%>"
+    
+
+ <h2><b>Laptop Lenovo Work State </b></h2>
+ <p>Mempunyai Spesifikasi :</p>
+ <p>Intel Core i5 gen 11</p>
+ <p>Ram 8gb Up to 16 Gb</p>
+ <p>Intel Hd</p>
+</div>
+
+<div id="ASUS" class="w3-container kota w3-animate-fading" style="display:none">
+    <img src="laptopasus.png" height="50%>"
+    
+
+ <h2><b>Laptop ASUS TUV Gaming </b></h2>
+ <p>Mempunyai Spesifikasi :</p>
+ <p>Intel Core AMD radeon 52000g</p>
+ <p>Ram 16gb Up to 32 Gb</p>
+ <p>GPU : Nvidia RTX 4050</p>
+</div>
+
+
+<div id="Contact" class="w3-container kota w3-animate-zoom" style="display:none">
+    <center><img src="Arif-removebg-preview.png">
+     <div class="w3-container w3-dark-grey"><h2><p>Muhammad Arif Rahmansyh</p>
+     <p>Owner : UNI-TECHWARE</p></h2>   
+     </div>
+     <p><img src="contacts.png" height="50%"></p>
+    </center>
+    <h1><b>Hubungi Nomer Ini jika ingin Lebih Tau :</b></h1>
+<p>08123456789</p>
+</div>
+
+<div id="Smartphone" class="w3-container kota w3-animate-bottom" style="display:none">
+    <img src="hape.png" width="50%"
+ <h2><b>FrameWork Phone</b></h2>
+ <p><font face="Adobe Heiti Std R">Smartphone berbasis OS android yang dapat kamu pilih dengan Spesifikasi Yang Powerfull untuk kerja atau pun gaming</font></p>
+</div>
+<div id="Aksesoris" class="w3-container kota w3-animate-top" style="display:none">
+ <h2><b>Headphone gaming</b></h2>
+  <img src="input.png" height="50%" width="%"
+ <p><u><font face="Adobe Heiti Std R">Razer Cortex </font></u></p>
+</div>
+<div id="Aksesoris" class="w3-container kota w3-animate-top" style="display:none">
+    <h2><b>Headphone gaming</b></h2>
+     <img src="input.png" height="50%" width="%"
+    <p><u><font face="Adobe Heiti Std R">Razer Cortex </font></u></p>
+   </div>
+   
+<script>
+function openKota(input) {
+ var i;
+ var x = document.getElementsByClassName("kota");
+ for (i = 0; i < x.length; i++) {
+ x[i].style.display = "none"; 
+ }
+ document.getElementById(input).style.display = "block"; 
+}
+</script>
+</body>
+</html>

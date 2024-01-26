@@ -1,0 +1,18 @@
+body{
+
+}
+.reflection{
+    width: 500px;
+    height: 333;
+    position: relative;
+    background: url("hape.png");
+}
+.reflection::after{
+    content: "";
+    background-image: inherit;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    bottom: -100%;
+    transform: scaleY(-1);
+}

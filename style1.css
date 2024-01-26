@@ -1,0 +1,6 @@
+body {
+    background-color: black;
+    color: white; /* Set text color to white for better visibility on a black background */
+    margin: 0; /* Remove default body margin */
+    font-family: Arial, sans-serif; /* Set a preferred font family */
+}
